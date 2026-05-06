@@ -1,0 +1,21 @@
+{
+    "version": "2023-09-02",
+    "description": "Modify fonts to remove bitmap and disable gridfit for Windows font rendering",
+    "homepage": "https://github.com/m13253/FaithType",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "A UAC elevation prompt will appear. The installation runs in a new PowerShell window.",
+        "Restart your system after installation.",
+        "To manually patch additional fonts, use 'faithtype.exe'."
+    ],
+    "url": "https://github.com/m13253/FaithType/releases/download/latest/FaithType.zip",
+    "hash": "d6d073482374824b17ce96752cffef743519c46f3617b477cfa2e7067a6b38df",
+    "extract_dir": "FaithType",
+    "bin": "faithtype.exe",
+    "installer": {
+        "script": "& \"$dir\\Auto-Patch-Then-Install.ps1\""
+    },
+    "uninstaller": {
+        "script": "& \"$dir\\Auto-Uninstall.ps1\""
+    }
+}

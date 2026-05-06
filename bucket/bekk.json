@@ -1,0 +1,14 @@
+{
+    "version": "0.0.0",
+    "description": "Backup CLI for Windows",
+    "homepage": "https://github.com/liry24/bekk",
+    "bin": [["bekk"]],
+    "checkver": { "github": "https://github.com/liry24/bekk" },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/liry24/bekk/releases/download/v$version/$bin"
+            }
+        }
+    }
+}
