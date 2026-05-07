@@ -1,34 +1,23 @@
 {
-  "version": "0.2.6",
-  "description": "Cross-platform backup CLI",
-  "homepage": "https://github.com/liry24/bekk",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/liry24/bekk/releases/download/v0.2.6/bekk-windows-x64.zip",
-      "hash": "8df1f9fb415a54f8cf533d3f765170161e2a50bd901438a48ba7e35beeed4918",
-      "extract_dir": ".",
-      "bin": [
-        [
-          "bekk.exe",
-          "bekk"
-        ]
-      ],
-      "shortcuts": [
-        [
-          "bekk.exe",
-          "bekk"
-        ]
-      ]
-    }
-  },
-  "checkver": {
-    "github": "https://github.com/liry24/bekk"
-  },
-  "autoupdate": {
+    "version": "0.2.6",
+    "description": "Cross-platform backup CLI",
+    "homepage": "https://github.com/liry24/bekk",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/liry24/bekk/releases/download/v$version/bekk-windows-x64.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/liry24/bekk/releases/download/v0.2.6/bekk-windows-x64.zip",
+            "hash": "8df1f9fb415a54f8cf533d3f765170161e2a50bd901438a48ba7e35beeed4918",
+            "bin": [["bekk.exe", "bekk"]],
+            "shortcuts": [["bekk.exe", "bekk"]]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/liry24/bekk"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/liry24/bekk/releases/download/v$version/bekk-windows-x64.zip"
+            }
+        }
     }
-  }
 }
