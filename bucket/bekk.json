@@ -1,11 +1,11 @@
 {
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Cross-platform backup CLI",
   "homepage": "https://github.com/liry24/bekk",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/liry24/bekk/releases/download/v0.2.9/bekk-windows-x64.zip",
-      "hash": "83ea38efc0366b4c7518cd48d2fdb18748ec7dc05afd4b551bd98a7816ef3b42",
+      "url": "https://github.com/liry24/bekk/releases/download/v0.2.10/bekk-windows-x64.zip",
+      "hash": "010408900e6958b0817fe1ad82b996b56a965c57371bd30893b25f7f8ad7a8cc",
       "bin": [
         [
           "bekk.exe",
