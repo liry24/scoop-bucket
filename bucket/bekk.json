@@ -1,26 +1,33 @@
 {
-  "version": "0.1.0",
-  "description": "Backup CLI for Windows",
+  "version": "0.2.6",
+  "description": "Cross-platform backup CLI",
   "homepage": "https://github.com/liry24/bekk",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/liry24/bekk/releases/download/v0.1.0/bekk-bun-windows-x64-baseline.exe",
-      "hash": "827ecd2ef2bc6724c9080e4c49024ae072f65629b284affd93c514ca53d3d925"
+      "url": "https://github.com/liry24/bekk/releases/download/v0.2.6/bekk-windows-x64.zip",
+      "hash": "8df1f9fb415a54f8cf533d3f765170161e2a50bd901438a48ba7e35beeed4918",
+      "extract_dir": ".",
+      "bin": [
+        [
+          "bekk.exe",
+          "bekk"
+        ]
+      ],
+      "shortcuts": [
+        [
+          "bekk.exe",
+          "bekk"
+        ]
+      ]
     }
   },
-  "bin": [
-    [
-      "bekk-bun-windows-x64-baseline.exe",
-      "bekk"
-    ]
-  ],
   "checkver": {
     "github": "https://github.com/liry24/bekk"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/liry24/bekk/releases/download/v$version/bekk-bun-windows-x64-baseline.exe"
+        "url": "https://github.com/liry24/bekk/releases/download/v$version/bekk-windows-x64.zip"
       }
     }
   }
